@@ -1,0 +1,10 @@
+<roi_coll mode="xld" name="ROI">
+ <roi name="ROI [0]">
+  <circle operation="none">
+   <data row="975.1302163833074" radius="207.9648377125195" col="1577.683023245925"/>
+  </circle>
+  <circle operation="difference">
+   <data row="976.5054095826893" radius="161.6032044049111" col="1576.055259199432"/>
+  </circle>
+ </roi>
+</roi_coll>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SystemParam>
+  <ParamDescribe>
+    <ParamDescribe 修改者="Admin" 文件描述="系统配置参数" />
+  </ParamDescribe>
+  <Param>
+    <Param 键值="RunParam" 当前值="" 单位="" 参数描述="-----------运行参数设置-----------" 翻译="---Operation parameter setting---" 其它翻译="-----------运行参数设置-----------" 最小值="" 最大值="" 权限="1" />
+    <Param 键值="AxisXSpeed" 当前值="10" 单位="%" 参数描述="X轴速度(速度百分比)" 翻译="X-axis speed (speed percentage)" 其它翻译="EDFRSA" 最小值="0.1" 最大值="100" 权限="2" />
+    <Param 键值="AxisYSpeed" 当前值="10" 单位="%" 参数描述="Y轴速度(速度百分比)" 翻译="Y-axis speed (speed percentage)" 其它翻译="Y轴速度(速度百分比)" 最小值="0.1" 最大值="100" 权限="2" />
+    <Param 键值="AxisZSpeed" 当前值="10" 单位="%" 参数描述="Z轴速度(速度百分比)" 翻译="Z-axis speed (speed percentage)" 其它翻译="Z轴速度(速度百分比)" 最小值="0.1" 最大值="100" 权限="2" />
+    <Param 键值="AxisUSpeed" 当前值="20" 单位="%" 参数描述="U轴速度(速度百分比)" 翻译="U-axis speed (speed percentage)" 其它翻译="U轴速度(速度百分比)" 最小值="0.1" 最大值="100" 权限="2" />
+    <Param 键值="TimeParam" 当前值="" 单位="" 参数描述="-----------超时参数设置-----------" 翻译="---Timeout parameter setting---" 其它翻译="-----------超时参数设置-----------" 最小值="" 最大值="" 权限="0" />
+    <Param 键值="IoTimeOut" 当前值="10" 单位="sec" 参数描述="IO等待超时时间" 翻译="IO wait timeout" 其它翻译="IO等待超时时间" 最小值="0" 最大值="100" 权限="3" />
+    <Param 键值="MotionTimeOut" 当前值="100" 单位="sec" 参数描述="轴运动等待超时时间" 翻译="Axis movement waiting timeout" 其它翻译="轴运动等待超时时间" 最小值="0" 最大值="600" 权限="3" />
+    <Param 键值="RegTimeOut" 当前值="100" 单位="sec" 参数描述="寄存器等待超时时间" 翻译="Register wait timeout" 其它翻译="寄存器等待超时时间" 最小值="0" 最大值="600" 权限="3" />
+    <Param 键值="CommunicationTimeOut" 当前值="100" 单位="sec" 参数描述="通讯命令超时时间" 翻译="Communication timeout" 其它翻译="通讯命令超时时间" 最小值="0" 最大值="600" 权限="3" />
+    <Param 键值="OpcTimeOut" 当前值="100" 单位="sec" 参数描述="Opc等待超时时间" 翻译="OPC wait timeout" 其它翻译="Opc等待超时时间" 最小值="0" 最大值="600" 权限="3" />
+    <Param 键值="MessageTimeOut" 当前值="100" 单位="sec" 参数描述="提示框等待时间" 翻译="Prompt box waiting time" 其它翻译="提示框等待时间" 最小值="0" 最大值="3600" 权限="3" />
+    <Param 键值="ScanTime" 当前值="10" 单位="ms" 参数描述="系统扫描周期" 翻译="System scan cycle" 其它翻译="系统扫描周期" 最小值="1" 最大值="50" 权限="3" />
+    <Param 键值="IdleTime" 当前值="10" 单位="min" 参数描述="无操作自动转为OP模式时间" 翻译="Idle switch to OP mode time" 其它翻译="无操作自动转为OP模式时间" 最小值="1" 最大值="60" 权限="3" />
+    <Param 键值="CylDelayTime" 当前值="100" 单位="ms" 参数描述="气缸延时时间" 翻译="Cylinder delay time" 其它翻译="气缸延时时间" 最小值="0" 最大值="10000" 权限="3" />
+    <Param 键值="AntiShakeTimeMs" 当前值="50" 单位="ms" 参数描述="IO防抖时间" 翻译="IO anti shake time" 其它翻译="IO防抖时间" 最小值="0" 最大值="100" 权限="3" />
+    <Param 键值="DebugParam" 当前值="" 单位="" 参数描述="-----------调试参数设置-----------" 翻译="Debug parameter settings" 其它翻译="-----------调试参数设置-----------" 最小值="" 最大值="" 权限="0" />
+    <Param 键值="SafetyDoor" 当前值="0" 单位="/" 参数描述="是否启动安全门（1:启用 0:不启用）" 翻译="Enable safety door(1:Enable 0:Disable)" 其它翻译="是否启动安全门（1:启用 0:不启用）" 最小值="0" 最大值="1" 权限="3" />
+    <Param 键值="FullScreen" 当前值="0" 单位="/" 参数描述="程序全屏运行（1:启用 0:不启用）" 翻译="Enable full screen(1:Enable 0:Disable)" 其它翻译="程序全屏运行（1:启用 0:不启用）" 最小值="0" 最大值="1" 权限="3" />
+    <Param 键值="AutoCycle" 当前值="0" 单位="/" 参数描述="全自动运行（1:启用 0:不启用）" 翻译="Fully automatic operation(1:Enable 0:Disable)" 其它翻译="全自动运行（1:启用 0:不启用）" 最小值="0" 最大值="1" 权限="3" />
+    <Param 键值="SystemSpeed" 当前值="100" 单位="%" 参数描述="系统运动速度百分比" 翻译="System speed percentage" 其它翻译="系统运动速度百分比" 最小值="1" 最大值="100" 权限="3" />
+    <Param 键值="VisionEnable" 当前值="0" 单位="/" 参数描述="是否启用相机（1:启用 0:不启用）" 翻译="Enable vision(1:Enable 0:Disable)" 其它翻译="是否启用相机（1:启用 0:不启用）" 最小值="0" 最大值="1" 权限="3" />
+    <Param 键值="PDCAEnable" 当前值="0" 单位="/" 参数描述="是否启动PDCA数据上传（1:启用 0:不启用）" 翻译="Enable PDCA(1:Enable 0:Disable)" 其它翻译="是否启动PDCA数据上传（1:启用 0:不启用）" 最小值="0" 最大值="1" 权限="3" />
+    <Param 键值="SaveShowLogEnable" 当前值="1" 单位="/" 参数描述="是否保存ShowLog（1:启用 0:不启用）" 翻译="Enable save show log(1:Enable 0:Disable)" 其它翻译="是否保存ShowLog（1:启用 0:不启用）" 最小值="0" 最大值="1" 权限="3" />
+    <Param 键值="AntiShakeEnable" 当前值="1" 单位="/" 参数描述="是否启用IO防抖（1:启用 0:不启用）" 翻译="Enable IO anti shake(1:Enable 0:Disable)" 其它翻译="是否启用IO防抖（1:启用 0:不启用）" 最小值="0" 最大值="1" 权限="3" />
+    <Param 键值="FileSaveParam" 当前值="" 单位="" 参数描述="---------文件保存参数设置---------" 翻译="---File save parameter settings---" 其它翻译="---------文件保存参数设置---------" 最小值="" 最大值="" 权限="0" />
+    <Param 键值="ImageSavePath" 当前值="d:\exe\Image" 单位="/" 参数描述="图片存储路径" 翻译="Picture storage path" 其它翻译="图片存储路径" 最小值="" 最大值="" 权限="3" />
+    <Param 键值="ImageSaveParam" 当前值="1" 单位="/" 参数描述="原始图存储(0:不存储 1:NG图 2:存储)" 翻译="Save raw picture(0:none 1:NG picture 2:All)" 其它翻译="原始图存储(0:不存储 1:NG图 2:存储)" 最小值="0" 最大值="2" 权限="3" />
+    <Param 键值="WindowSaveParam" 当前值="0" 单位="" 参数描述="窗口图存储(0:不存储 1:NG图 2:存储)" 翻译="Save window picture(0:none 1:NG picture 2:All)" 其它翻译="窗口图存储(0:不存储 1:NG图 2:存储)" 最小值="0" 最大值="2" 权限="3" />
+    <Param 键值="ImageKeepTime" 当前值="10" 单位="day" 参数描述="图像文件存储时间" 翻译="Image file storage days" 其它翻译="图像文件存储时间" 最小值="10" 最大值="1000" 权限="3" />
+    <Param 键值="LogSavePath" 当前值="d:\exe\Log" 单位="/" 参数描述="日志存储路径" 翻译="Log storage path" 其它翻译="日志存储路径" 最小值="" 最大值="" 权限="3" />
+    <Param 键值="ReportSavePath" 当前值="d:\exe\Report" 单位="/" 参数描述="测试报告存储路径" 翻译="Test report storage path" 其它翻译="测试报告存储路径" 最小值="" 最大值="" 权限="3" />
+    <Param 键值="LogKeepTime" 当前值="31" 单位="day" 参数描述="日志存储时间" 翻译="Log storage days" 其它翻译="日志存储时间" 最小值="10" 最大值="1000" 权限="3" />
+    <Param 键值="DataSavePath" 当前值="d:\exe\Data" 单位="/" 参数描述="数据文件存储路径" 翻译="Data file storage path" 其它翻译="数据文件存储路径" 最小值="" 最大值="" 权限="3" />
+    <Param 键值="DataKeepTime" 当前值="31" 单位="day" 参数描述="数据文件存储时间" 翻译="Data file storage days" 其它翻译="数据文件存储时间" 最小值="10" 最大值="1000" 权限="3" />
+    <Param 键值="UPHDataSavePath" 当前值="d:\exe\Data\UPH" 单位="/" 参数描述="UPH数据文件存储路径" 翻译="UPH data save path" 其它翻译="UPH数据文件存储路径" 最小值="" 最大值="" 权限="3" />
+    <Param 键值="DayShiftTime" 当前值="7" 单位="H" 参数描述="班次开始时间(用于UPH显示)" 翻译="Day shift start time" 其它翻译="班次开始时间" 最小值="1" 最大值="12" 权限="3" />
+  </Param>
+</SystemParam>

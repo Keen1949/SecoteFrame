@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PointCfg>
+  <测试1站>
+    <Point index="1" name="安全点" x="100" y="0" z="0" u="0" a="300" b="0" c="0" d="0" />
+    <Point index="2" name="拍照点" x="0" y="10" z="0" u="0" a="0" b="400" c="0" d="0" />
+    <Point index="3" name="取料点" x="0" y="0" z="10" u="10" a="0" b="0" c="500" d="0" />
+  </测试1站>
+  <测试2站>
+    <Point index="1" name="SafePoint" x="10" y="0" z="0" u="0" a="0" b="30" c="0" d="0" />
+    <Point index="2" name="测试点" x="100" y="0" z="0" u="0" a="0" b="60" c="0" d="0" />
+  </测试2站>
+</PointCfg>

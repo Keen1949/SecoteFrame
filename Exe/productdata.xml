@@ -1,0 +1,97 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>2</_size>
+<_version>2</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="a3:ProductData[5]" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ToolEx/ToolEx%2C%20Version%3D1.0.8353.28481%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+<item href="#ref-8"/>
+<item href="#ref-9"/>
+<item href="#ref-10"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-4" SOAP-ENC:arrayType="xsd:int[5]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<a3:ProductData id="ref-6" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ToolEx/ToolEx%2C%20Version%3D1.0.8353.28481%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strBarCode id="ref-11"></m_strBarCode>
+<m_strJigCode href="#ref-11"/>
+<m_nGlueIndex>1</m_nGlueIndex>
+<m_dtBeginTime>2022-10-18T14:59:08.7215619+08:00</m_dtBeginTime>
+<m_dtEndTime>2022-10-18T14:59:08.7215619+08:00</m_dtEndTime>
+<m_dtStartGlue>2022-10-18T14:59:08.7215619+08:00</m_dtStartGlue>
+<m_dtEndGlue>2022-10-18T14:59:08.7215619+08:00</m_dtEndGlue>
+<m_dtStartAssem>2022-10-18T14:59:08.7215619+08:00</m_dtStartAssem>
+<m_dbRecheckX>0</m_dbRecheckX>
+<m_dbRecheckY>0</m_dbRecheckY>
+<m_dbRecheckU>0</m_dbRecheckU>
+<m_bResult>false</m_bResult>
+</a3:ProductData>
+<a3:ProductData id="ref-7" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ToolEx/ToolEx%2C%20Version%3D1.0.8353.28481%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strBarCode href="#ref-11"/>
+<m_strJigCode href="#ref-11"/>
+<m_nGlueIndex>1</m_nGlueIndex>
+<m_dtBeginTime>2022-10-18T14:59:08.7215619+08:00</m_dtBeginTime>
+<m_dtEndTime>2022-10-18T14:59:08.7215619+08:00</m_dtEndTime>
+<m_dtStartGlue>2022-10-18T14:59:08.7215619+08:00</m_dtStartGlue>
+<m_dtEndGlue>2022-10-18T14:59:08.7215619+08:00</m_dtEndGlue>
+<m_dtStartAssem>2022-10-18T14:59:08.7215619+08:00</m_dtStartAssem>
+<m_dbRecheckX>0</m_dbRecheckX>
+<m_dbRecheckY>0</m_dbRecheckY>
+<m_dbRecheckU>0</m_dbRecheckU>
+<m_bResult>false</m_bResult>
+</a3:ProductData>
+<a3:ProductData id="ref-8" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ToolEx/ToolEx%2C%20Version%3D1.0.8353.28481%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strBarCode href="#ref-11"/>
+<m_strJigCode href="#ref-11"/>
+<m_nGlueIndex>1</m_nGlueIndex>
+<m_dtBeginTime>2022-10-18T14:59:08.7215619+08:00</m_dtBeginTime>
+<m_dtEndTime>2022-10-18T14:59:08.7215619+08:00</m_dtEndTime>
+<m_dtStartGlue>2022-10-18T14:59:08.7215619+08:00</m_dtStartGlue>
+<m_dtEndGlue>2022-10-18T14:59:08.7215619+08:00</m_dtEndGlue>
+<m_dtStartAssem>2022-10-18T14:59:08.7215619+08:00</m_dtStartAssem>
+<m_dbRecheckX>0</m_dbRecheckX>
+<m_dbRecheckY>0</m_dbRecheckY>
+<m_dbRecheckU>0</m_dbRecheckU>
+<m_bResult>false</m_bResult>
+</a3:ProductData>
+<a3:ProductData id="ref-9" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ToolEx/ToolEx%2C%20Version%3D1.0.8353.28481%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strBarCode href="#ref-11"/>
+<m_strJigCode href="#ref-11"/>
+<m_nGlueIndex>1</m_nGlueIndex>
+<m_dtBeginTime>2022-10-18T14:59:08.7215619+08:00</m_dtBeginTime>
+<m_dtEndTime>2022-10-18T14:59:08.7215619+08:00</m_dtEndTime>
+<m_dtStartGlue>2022-10-18T14:59:08.7215619+08:00</m_dtStartGlue>
+<m_dtEndGlue>2022-10-18T14:59:08.7215619+08:00</m_dtEndGlue>
+<m_dtStartAssem>2022-10-18T14:59:08.7215619+08:00</m_dtStartAssem>
+<m_dbRecheckX>0</m_dbRecheckX>
+<m_dbRecheckY>0</m_dbRecheckY>
+<m_dbRecheckU>0</m_dbRecheckU>
+<m_bResult>false</m_bResult>
+</a3:ProductData>
+<a3:ProductData id="ref-10" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ToolEx/ToolEx%2C%20Version%3D1.0.8353.28481%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strBarCode href="#ref-11"/>
+<m_strJigCode href="#ref-11"/>
+<m_nGlueIndex>1</m_nGlueIndex>
+<m_dtBeginTime>2022-10-18T14:59:08.7215619+08:00</m_dtBeginTime>
+<m_dtEndTime>2022-10-18T14:59:08.7215619+08:00</m_dtEndTime>
+<m_dtStartGlue>2022-10-18T14:59:08.7215619+08:00</m_dtStartGlue>
+<m_dtEndGlue>2022-10-18T14:59:08.7215619+08:00</m_dtEndGlue>
+<m_dtStartAssem>2022-10-18T14:59:08.7215619+08:00</m_dtStartAssem>
+<m_dbRecheckX>0</m_dbRecheckX>
+<m_dbRecheckY>0</m_dbRecheckY>
+<m_dbRecheckU>0</m_dbRecheckU>
+<m_bResult>false</m_bResult>
+</a3:ProductData>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

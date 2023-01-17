@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SystemCfg>
+  <Data>
+    <Data 名称="组装精度" 版本="1.0" PDCA="False" 权限="2">
+      <Item 名称="X" 数据类型="" 数据索引="" 标准值="0.54" 上限="0.59" 下限="0.49" 补偿值="0" 单位="mm" />
+      <Item 名称="Y" 数据类型="" 数据索引="" 标准值="2.52" 上限="2.59" 下限="2.47" 补偿值="0" 单位="mm" />
+      <Item 名称="Z" 数据类型="" 数据索引="" 标准值="0" 上限="0" 下限="0" 补偿值="0" 单位="mm" />
+      <Item 名称="U" 数据类型="" 数据索引="" 标准值="0" 上限="0.5" 下限="-0.5" 补偿值="0" 单位="°" />
+    </Data>
+    <Data 名称="组装位置" 版本="1.0" PDCA="False" 权限="2">
+      <Item 名称="X" 数据类型="" 数据索引="" 标准值="0.54" 上限="0.59" 下限="0.49" 补偿值="0" 单位="mm" />
+      <Item 名称="Y" 数据类型="" 数据索引="" 标准值="2.52" 上限="2.59" 下限="2.47" 补偿值="0" 单位="mm" />
+      <Item 名称="Z" 数据类型="" 数据索引="" 标准值="0" 上限="0" 下限="0" 补偿值="0" 单位="mm" />
+      <Item 名称="U" 数据类型="" 数据索引="" 标准值="0" 上限="1" 下限="-1" 补偿值="0" 单位="°" />
+    </Data>
+    <Data 名称="PDCA数据" 版本="1.0" PDCA="True" 权限="1">
+      <Item 名称="HsgCode" 数据类型="pdata" 数据索引="m_strHSGCode" 标准值="" 上限="" 下限="" 补偿值="0" 单位="" />
+      <Item 名称="点胶时间" 数据类型="pdata" 数据索引="GlueTimeS" 标准值="3" 上限="1" 下限="5" 补偿值="0" 单位="s" />
+      <Item 名称="曝胶时间" 数据类型="pdata" 数据索引="ExposureGlueTimeS" 标准值="15" 上限="10" 下限="20" 补偿值="0" 单位="s" />
+      <Item 名称="X" 数据类型="pdata" 数据索引="m_dbRecheckX" 标准值="0.54" 上限="0.59" 下限="0.49" 补偿值="0" 单位="mm" />
+      <Item 名称="Y" 数据类型="pdata" 数据索引="m_dbRecheckY" 标准值="2.52" 上限="2.59" 下限="2.47" 补偿值="0" 单位="mm" />
+      <Item 名称="U" 数据类型="pdata" 数据索引="m_dbRecheckU" 标准值="0" 上限="1" 下限="-1" 补偿值="0" 单位="" />
+      <Item 名称="Mode" 数据类型="pdata" 数据索引="" 标准值="0" 上限="" 下限="" 补偿值="" 单位="" />
+      <Item 名称="BUEN01" 数据类型="dut_pos" 数据索引="" 标准值="H1" 上限="" 下限="" 补偿值="" 单位="" />
+    </Data>
+    <DataShow 是否保存="False">
+      <Item 名称="开始时间" 数据索引="m_dtBeginTime" />
+      <Item 名称="结束时间" 数据索引="m_dtEndTime" />
+      <Item 名称="结果" 数据索引="m_bResult" />
+      <Item 名称="点胶穴位" 数据索引="m_nGlueIndex" />
+      <Item 名称="点胶时间" 数据索引="GlueTimeS" />
+      <Item 名称="曝胶时间" 数据索引="ExposureGlueTimeS" />
+      <Item 名称="复检X" 数据索引="m_dbRecheckX" />
+      <Item 名称="复检Y" 数据索引="m_dbRecheckY" />
+    </DataShow>
+    <DataSave 保存类型="DB" Server="127.0.0.1" Port="3306" UserID="root" Password="483B2D2B273C2D6B78797B" Database="test" TableName="table_test" 保存路径="D:\exe\pdca" 是否保存="True">
+      <Item 名称="开始时间" 数据索引="m_dtBeginTime" />
+      <Item 名称="结束时间" 数据索引="m_dtEndTime" />
+      <Item 名称="Recheck_X" 数据索引="m_dbRecheckX" />
+      <Item 名称="Recheck_Y" 数据索引="m_dbRecheckY" />
+      <Item 名称="二维码" 数据索引="m_strBarCode" />
+    </DataSave>
+  </Data>
+</SystemCfg>

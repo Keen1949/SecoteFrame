@@ -1,0 +1,7 @@
+<roi_coll mode="xld" name="ROI">
+ <roi name="ROI [0]">
+  <rect2 operation="none">
+   <data len1="63.93095324919238" len2="207.2825923752038" row="355.8827154925201" col="1941.287195063416" phi="179.9347809416212"/>
+  </rect2>
+ </roi>
+</roi_coll>
